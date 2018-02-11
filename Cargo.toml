@@ -1,0 +1,14 @@
+[package]
+name = "terminal_game_engine"
+version = "0.0.1"
+authors = ["calum"]
+readme = "README.md"
+keywords = ["terminal", "game", "engine"]
+repository = "https://github.com/calum/terminal_game_engine"
+license = "MIT/Apache-2.0"
+description = "Using the terminal_graphics api to create a game engine for the terminal."
+
+[dependencies]
+termion = "1.5.1"
+rand = "0.3"
+terminal_graphics = "0.1.4"
